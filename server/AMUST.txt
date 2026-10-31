@@ -1,0 +1,45 @@
+
+PORT=3001
+DATABASE_URL=mongodb://127.0.0.1:27017/campus_lf
+DATABASE_NAME=campus_lf
+JWT_SECRET=campus_lost_found_local_dev_secret_change_before_deployment
+JWT_ACCESS_EXPIRATION_TTL=86400
+ADMIN_EMAIL=admin@campus.com
+ADMIN_PASSWORD=Admin@1234
+ADMIN_FIRSTNAME=Campus
+ADMIN_LASTNAME=Admin
+
+
+
+১. কিবোর্ডে Windows + R চাপো।
+২. cmd লিখে Enter চাপো।
+৩. কালো উইন্ডোতে নিচের কমান্ডটি কপি করে Paste করো:
+
+1. Backend চালু করো
+1st:-  cd C:\Users\DC\Downloads\CampusLostFound-main\CampusLostFound-main\server
+2nd:-  npm run dev
+if error আসে:- npm start
+
+
+
+2. Frontend চালু করো
+1st:-  cd /d "C:\Users\DC\Downloads\CampusLostFound-main\CampusLostFound-main\client"
+2nd:-  npm run dev
+
+
+১. Server ফোল্ডারে যাও
+cd C:\Users\DC\Downloads\CampusLostFound-main\CampusLostFound-main\server
+২. Environment ফাইলগুলো খুঁজে বের করো
+dir /a .env*
+৩. যদি .env ফাইল দেখায়, তাহলে চালাও
+type .env
+4. যদি .env.development দেখায়, তাহলে চালাও:
+type .env.development
+৪. যদি কোনো .env ফাইল না পাও, তাহলে প্রজেক্টে MongoDB connection কোথায় আছে খুঁজো
+findstr /s /i /n "mongodb mongoose.connect" *.js
+
+
+1. MongoDB Compass খোলো।
+2. Connection string-এর ঘরে লেখো:
+mongodb://127.0.0.1:27017
+
