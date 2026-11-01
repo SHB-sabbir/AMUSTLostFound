@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import AdminSidebar from "../../components/sidebar/adminsidebar.jsx";
-import AdminNavbar from "../../components/navbar/adminnavbar.jsx";
+import AdminNavbar from "../../components/navbar/Adminnavbar.jsx";
 import { useFetchUsers } from "../../hooks/adminHook/useFetchUsers.js";
 import { useBlockUser } from "../../hooks/useBlockUser.hook.js";
 
