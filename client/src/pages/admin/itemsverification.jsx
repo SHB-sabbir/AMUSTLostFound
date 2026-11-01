@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from "react";
-import AdminSidebar from "../../components/sidebar/adminsidebar";
+import AdminSidebar from "../../components/sidebar/adminsidebar.jsx";
 import AdminNavbar from "../../components/navbar/adminnavbar.jsx";
-import { useFetchAdminItems } from "../../hooks/adminHook/useFetchAdminItems";
-import { useVerifyItem } from "../../hooks/adminHook/useVerifyItem.hook";
+import { useFetchAdminItems } from "../../hooks/adminHook/useFetchAdminItems.js";
+import { useVerifyItem } from "../../hooks/adminHook/useVerifyItem.hook.js";
 
 // ─── Category maps — schema enum exactly ─────────────────────────────
 // "wallet" | "phone" | "bag" | "id" | "electronics" | "others"

@@ -1,10 +1,10 @@
 import React from "react";
-import AdminSidebar from "../../components/sidebar/adminsidebar";
-import AdminNavbar from "../../components/navbar/adminnavbar";
-import { useAdminDashboard } from "../../hooks/adminHook/adminDashboard";
-import { useApproveClaim } from "../../hooks/claimsHook/useApproveClaim.hook";
-import { useRejectClaim } from "../../hooks/claimsHook/useRejectClaim.hook";
-import { useBlockUser } from "../../hooks/useBlockUser.hook";
+import AdminSidebar from "../../components/sidebar/adminsidebar.jsx";
+import AdminNavbar from "../../components/navbar/adminnavbar.jsx";
+import { useAdminDashboard } from "../../hooks/adminHook/adminDashboard.js";
+import { useApproveClaim } from "../../hooks/claimsHook/useApproveClaim.hook.js";
+import { useRejectClaim } from "../../hooks/claimsHook/useRejectClaim.hook.js";
+import { useBlockUser } from "../../hooks/useBlockUser.hook.js";
 
 // ─── Skeleton ─────────────────────────────────────────────────────────
 function Skeleton({ className = "" }) {

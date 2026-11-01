@@ -1,9 +1,9 @@
 import React from "react";
-import AdminSidebar from "../../components/sidebar/adminsidebar";
+import AdminSidebar from "../../components/sidebar/adminsidebar.jsx";
 import AdminNavbar from "../../components/navbar/adminnavbar.jsx";
-import { useGetClaims } from "../../hooks/adminHook/useFetchClaims.hook";
-import { useApproveClaim } from "../../hooks/claimsHook/useApproveClaim.hook";
-import { useRejectClaim } from "../../hooks/claimsHook/useRejectClaim.hook";
+import { useGetClaims } from "../../hooks/adminHook/useFetchClaims.hook.js";
+import { useApproveClaim } from "../../hooks/claimsHook/useApproveClaim.hook.js";
+import { useRejectClaim } from "../../hooks/claimsHook/useRejectClaim.hook.js";
 
 const ClaimsPage = () => {
   const { data, isLoading, error } = useGetClaims();

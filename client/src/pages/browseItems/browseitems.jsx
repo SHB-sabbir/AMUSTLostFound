@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import Sidebar from "../../components/sidebar/sidebar.jsx";
-import { useFetchItems } from "../../hooks/itemsHook/useGetItems.hook";
+import { useFetchItems } from "../../hooks/itemsHook/useGetItems.hook.js";
 import { useNavigate } from "react-router";
 import Navbar from "../../components/navbar/navbar.jsx";
 
