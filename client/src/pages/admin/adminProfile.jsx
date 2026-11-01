@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { UserRound, Pencil, Lock, CheckCircle, XCircle } from "lucide-react";
 import AdminSidebar from "../../components/sidebar/adminsidebar.jsx";
-import AdminNavbar from "../../components/navbar/Adminnavbar.jsx";
+import AdminNavbar from "../../components/navbar/adminnavbar.jsx";
 import {
   useGetProfile,
   useUpdateProfile,

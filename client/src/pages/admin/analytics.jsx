@@ -1,6 +1,6 @@
 import React from "react";
 import AdminSidebar from "../../components/sidebar/adminsidebar";
-import AdminNavbar from "../../components/navbar/Adminnavbar.jsx";
+import AdminNavbar from "../../components/navbar/adminnavbar.jsx";
 
 import { useAnalyticsOverview } from "../../hooks/adminHook/useAnalyticsOverview";
 

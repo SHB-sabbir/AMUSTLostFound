@@ -4,7 +4,7 @@ import { SignupSchema } from "../../schema/signup.schema.js";
 import { useSignup } from "../../hooks/useSignup.hook.js";
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router";
-import AdminNavbar from "../../components/navbar/Adminnavbar.jsx";
+import AdminNavbar from "../../components/navbar/adminnavbar.jsx";
 import AdminSidebar from "../../components/sidebar/adminsidebar.jsx";
 import { CheckCircle, AlertCircle } from "lucide-react";
 

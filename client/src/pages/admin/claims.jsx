@@ -1,6 +1,6 @@
 import React from "react";
 import AdminSidebar from "../../components/sidebar/adminsidebar";
-import AdminNavbar from "../../components/navbar/Adminnavbar.jsx";
+import AdminNavbar from "../../components/navbar/adminnavbar.jsx";
 import { useGetClaims } from "../../hooks/adminHook/useFetchClaims.hook";
 import { useApproveClaim } from "../../hooks/claimsHook/useApproveClaim.hook";
 import { useRejectClaim } from "../../hooks/claimsHook/useRejectClaim.hook";

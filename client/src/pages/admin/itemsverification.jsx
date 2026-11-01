@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import AdminSidebar from "../../components/sidebar/adminsidebar";
-import AdminNavbar from "../../components/navbar/Adminnavbar.jsx";
+import AdminNavbar from "../../components/navbar/adminnavbar.jsx";
 import { useFetchAdminItems } from "../../hooks/adminHook/useFetchAdminItems";
 import { useVerifyItem } from "../../hooks/adminHook/useVerifyItem.hook";
 
