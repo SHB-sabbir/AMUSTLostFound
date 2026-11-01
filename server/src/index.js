@@ -29,7 +29,9 @@ async function bootstrap() {
       process.env.DATABASE_URL,
       { dbName: process.env.DATABASE_NAME }
     );
-    console.log("Connnected To MongoDB");
+    console.log("Connected To MongoDB");
+
+    await seedAdmin();
 
     app.listen(port, () => {
       console.log(`App listening on port ${port}`);
@@ -44,7 +46,3 @@ async function bootstrap() {
 
 bootstrap();
 
-//to create a default admin user if not exists
-mongoose.connect(process.env.DATABASE_URL).then(async () => {
-  await seedAdmin(); // ← runs once, skips if admin exists
-});
